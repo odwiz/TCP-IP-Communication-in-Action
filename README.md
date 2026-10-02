@@ -1,25 +1,38 @@
-# Tracing an HTTPS Request Across the TCP/IP Model
-A group project by junior network analysts. This repository contains our technical presentation on how information travels across a network when a user
-opens a secure website (HTTPS), from the sending device to the destination and back.
+# How Information Travels Across a Network: Opening a Secure Website (Transport Layer)
+### Overview
+As part of a team of junior network analysts I was tasked to explain how data moves across a network using the TCP/IP model. The scenario followed throughout is opening a secure website (HTTPS).
 
-## Scenario
-Opening a secure website over HTTPS.
+## Main Responsibility
+Explain how a reliable connection is created between a client and a web server before any secure data is exchanged.
 
-## What the presentation covers
-- **End-to-end trace:** the full request and response path between client and server
-- **Layer-by-layer breakdown:** what happens at each TCP/IP layer (Application, Transport, Internet, Network Access) and the protocols involved (e.g., DNS, HTTP/TLS, TCP, IP, ARP, Ethernet)
-- **Encapsulation and decapsulation:** how data is wrapped and unwrapped at each layer
-- **Addressing and ports:** MAC addresses, IP addresses, and port numbers
-- **Network devices:** the role of switches, routers, and other devices along the path
-- **Model mapping:** TCP/IP model compared with the OSI model
-- **TCP vs UDP:** key differences, use cases, and trade-offs
-- **Troubleshooting:** how a network administrator can identify and resolve one communication failure in this scenario
+## Topics Covered
+**Transport Layer and Protocols**
+- The role of the TCP/IP Transport Layer
+- Introduction to TCP (Transmission Control Protocol)
+- Comparison of TCP vs UDP
+**TCP Three-Way Handshake**
+- SYN: the client requests a connection
+- SYN-ACK: the server acknowledges and responds
+- ACK: the client confirms, and the connection is established
+**Ports**
+- Source and destination ports
+- Why HTTPS normally uses TCP port 443
+- The ephemeral (dynamic) client port
+**Reliability**
+- How TCP ensures reliable delivery (sequencing, acknowledgements, retransmission)
+- Encapsulation, Decapsulation and OSI Mapping
+- How data is wrapped (encapsulated) as it moves down the stack and unwrapped (decapsulated) at the destination
+- Mapping TCP/IP layers to the OSI model
 
-## Team
-Each member contributed to both preparing and delivering the presentation.
-Individual contribution declarations are submitted separately through the portal.
+## Learning Objectives
+By the end of this, I was able to:
+
+- Describe the purpose of the Transport Layer
+- Walk through the TCP three-way handshake step by step
+- Explain how source/destination ports identify a connection
+- Justify why HTTPS uses TCP port 443
+- Compare TCP and UDP and explain when each is used
+- Relate encapsulation and decapsulation to the OSI layers
 
 ## Contents
-- `/slides`: presentation files
-- `/diagrams`: network and encapsulation diagrams
-- `/notes`: speaker notes and references
+- `/notes`: speaker notes and references in PDF.
