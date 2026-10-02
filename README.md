@@ -9,7 +9,7 @@ Explain how a reliable connection is created between a client and a web server b
 **Transport Layer and Protocols**
 - The role of the TCP/IP Transport Layer
 - Introduction to TCP (Transmission Control Protocol)
-- Comparison of TCP vs UDP \
+- Comparison of TCP vs UDP 
 
 **TCP Three-Way Handshake**
 - SYN: the client requests a connection
