@@ -10,14 +10,17 @@ Explain how a reliable connection is created between a client and a web server b
 - The role of the TCP/IP Transport Layer
 - Introduction to TCP (Transmission Control Protocol)
 - Comparison of TCP vs UDP \
+
 **TCP Three-Way Handshake**
 - SYN: the client requests a connection
 - SYN-ACK: the server acknowledges and responds
 - ACK: the client confirms, and the connection is established
+
 **Ports**
 - Source and destination ports
 - Why HTTPS normally uses TCP port 443
 - The ephemeral (dynamic) client port
+
 **Reliability**
 - How TCP ensures reliable delivery (sequencing, acknowledgements, retransmission)
 - Encapsulation, Decapsulation and OSI Mapping
