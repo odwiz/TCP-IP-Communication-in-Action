@@ -1,6 +1,6 @@
 # How Information Travels Across a Network: Opening a Secure Website (Transport Layer)
 ### Overview
-As part of a team of junior network analysts I was tasked to explain how data moves across a network using the TCP/IP model. The scenario followed throughout is opening a secure website (HTTPS).
+As part of a team of junior network analysts we were tasked to explain how data moves across a network using the TCP/IP model. The scenario followed throughout is opening a secure website (HTTPS). My main role was to explain how the connection is established.
 
 ## Main Responsibility
 Explain how a reliable connection is created between a client and a web server before any secure data is exchanged.
